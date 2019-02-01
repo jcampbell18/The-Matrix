@@ -42,7 +42,13 @@ aside {
 /************
 HEADER
 ************/
-/* Your Styles */
+header h1 {
+  font: 5.0em 'IM Fell English SC', serif;
+}
+
+header h5 {
+  font: 1.2em Arial, Tahoma, sans-serif;
+}
 
 
 /************
