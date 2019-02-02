@@ -49,11 +49,6 @@ footer {
 
 main {
   grid-column: 1 / span 3;
-
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  grid-gap: 1em;
 }
 
 aside {
@@ -92,8 +87,33 @@ header h5 {
 
 
 /************
+MAIN
+************/
+main {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8)
+  );
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 1em;
+}
+
+main section h2 {
+  font: 1.2em 'IM Fell English SC', serif;
+  color: white;
+  padding-left: 1em;
+}
+
+
+/************
 MOVIE TRAILER w/ MEDIA ELEMENT PLAYER
 ************/
+main section#trailer {
+  grid-column: span 2;
+}
+
 /* Fit <video> to container */
 video {
   max-width: 100%;
@@ -110,34 +130,25 @@ video {
 
 
 /************
-ACTORS
+SUMMARY
 ************/
-main {
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.8),
-    rgba(0, 0, 0, 0.8)
-  );
-}
-
-main section h2 {
-  font: 1.2em 'IM Fell English SC', serif;
-  color: white;
-  padding-left: 1em;
-}
-
-section#summary {
+main section#summary {
   grid-column: 1;
+  width: 100%;
 }
 
-section#actors {
-  grid-column: 2;
+main section#summary p {
+  font: 1em Arial, Tahoma, sans-serif;
+  color: white;
+  padding: 0 1.5em;
 }
-
 
 /************
 ACTORS
 ************/
 main section#actors { 
+  grid-column: 2;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
