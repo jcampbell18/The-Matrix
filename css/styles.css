@@ -69,20 +69,25 @@ header {
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   );
+  display: grid;
+  grid-template-rows: 2;
+  grid-template-columns: 1;
+  justify-items: center;
 }
 
 header h1 {
+  grid-row: 1;
   font: 5.0em 'IM Fell English SC', serif;
   color: white;
-  text-align: center;
+  padding: 0;
+  margin: 0;
+
 }
 
 header h5 {
+  grid-row: 2;
   font: 1.2em Arial, Tahoma, sans-serif;
   color: var(--tertiary-color);
-  display: flex;
-  justify-content: center;
-  align-content: flex-start;
 }
 
 
