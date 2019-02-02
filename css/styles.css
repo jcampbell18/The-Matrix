@@ -97,11 +97,11 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  grid-gap: 1em;
+  grid-gap: 0.5em;
 }
 
 main section h2 {
-  font: 1.2em 'IM Fell English SC', serif;
+  font: 1.6em 'IM Fell English SC', serif;
   color: white;
   padding-left: 1em;
 }
@@ -140,7 +140,8 @@ main section#summary {
 main section#summary p {
   font: 1em Arial, Tahoma, sans-serif;
   color: white;
-  padding: 0 1.5em;
+  padding-left: 1.5em;
+  line-height: 1.4em;
 }
 
 /************
