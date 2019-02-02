@@ -49,6 +49,11 @@ footer {
 
 main {
   grid-column: 1 / span 3;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 1em;
 }
 
 aside {
@@ -97,6 +102,32 @@ video {
 .mejs__time-current {
   background: tomato;
 }
+
+
+/************
+ACTORS
+************/
+main {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8)
+  );
+}
+
+main section h2 {
+  font: 1.2em 'IM Fell English SC', serif;
+  color: white;
+  padding-left: 1em;
+}
+
+section#summary {
+  grid-column: 1;
+}
+
+section#actors {
+  grid-column: 2;
+}
+
 
 /************
 ACTORS
