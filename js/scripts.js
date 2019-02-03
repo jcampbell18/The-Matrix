@@ -17,7 +17,18 @@ console.log('OK');
 /* Media Element Player Plugin
 * Reference: https://github.com/mediaelement/mediaelement/blob/master/docs/usage.md
 */
-
 $('video').mediaelementplayer();
 
+// Output Current Year
 $('.currentYear').text( (new Date).getFullYear() );
+
+/* Slick Carousel
+* Reference: https://github.com/kenwheeler/slick/blob/master/README.markdown
+*/
+$('.fade').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear'
+  });
