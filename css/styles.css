@@ -208,6 +208,43 @@ section#actors figcaption {
 
 
 /************
+DETAILS
+************/
+section#details {
+  color: white;
+}
+
+section#details div.two-column {
+  padding: 0 1.0em;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 0.5em;
+}
+
+section#details li {
+  font: 1.0em Arial, Tahoma, sans-serif;
+  line-height: 3.0em;
+}
+
+section#details li .word1 {
+  font-weight: bold;
+}
+
+
+/************
+SCREENSHOTS
+************/
+section#screenshots {
+  color: white;
+}
+
+section#screenshots img {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+/************
 FOOTER W/ CURRENT YEAR
 ************/
 footer {
