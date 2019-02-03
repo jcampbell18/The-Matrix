@@ -32,3 +32,12 @@ $('.fade').slick({
     fade: true,
     cssEase: 'linear'
   });
+
+/* lightGallery
+* Reference:
+*/
+$('#light-gallery').lightGallery({
+  thumbnail:true,
+  animateThumb: false,
+  showThumbByDefault: false
+}); 
