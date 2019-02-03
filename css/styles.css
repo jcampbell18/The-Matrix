@@ -102,7 +102,7 @@ header {
 
 header h1 {
   grid-row: 1;
-  font: 5.0em 'IM Fell English SC', serif;
+  font: 7.0em 'IM Fell English SC', serif;
   color: white;
   padding: 0;
   margin: 0;
@@ -188,13 +188,27 @@ main section#actors {
 main section#actors img {
   width: 100px;
   height: auto;
+  grid-row: 1;
+  margin: 0 auto;
+}
+
+
+section#actors figcaption {
+  grid-row: 2;
+  text-align: center;
 }
 
 /************
 FOOTER
 ************/
 footer {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
   text-align: center;
+  color: white;
+  font: 0.8em Arial, Tahoma, sans-serif;
 }
 
 
