@@ -9,7 +9,7 @@ body {
 }
 
 /************
-COLOR PALETTE
+COLOR PALETTE AND SIZING
 ************/
 :root {
   --primary-color: #0d1418;
@@ -23,16 +23,18 @@ COLOR PALETTE
   --tertiary-color: #0f1f32;
   --tint-color: white;
   --shade-color: black;*/
+
+  --viewing-size: 56em;
 }
 
 
 /************
 LAYOUT
 ************/
-body {
+div#container {
   /* Center to Page   */
   margin: 0 auto;
-  max-width: 56em;
+  max-width: var(--viewing-size);
   padding: 1em 0;
   
   /* CSS Grid Layout   */
@@ -57,9 +59,33 @@ aside {
 
 
 /************
+NAV
+************/
+nav {
+  width: 100%;
+  background: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 3em;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  position: fixed;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font: 1.4em 'IM Fell English SC', serif;
+}
+
+
+/************
 HEADER
 ************/
 header {
+  margin-top: 3em;
   background: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
