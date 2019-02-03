@@ -202,12 +202,39 @@ footer {
 ASIDE
 ************/
 aside {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: flex-start;
+  text-align: center;
+}
 
+aside h5 {
+  color: white;
+  font: 0.8em Arial, Tahoma, sans-serif;
+  text-align: center;
+}
+
+aside ul {
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1;
+  justify-items: center;
+  align-items: space-evenly;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 aside img {
   width: 50px;
   height: auto;
+}
+
+aside li {
+  padding: 1.2em 0;
 }
 
 
