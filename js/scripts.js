@@ -9,7 +9,7 @@ console.log('OK');
 // $('h1').lettering();
 
 // with Words options
-// $('h1').lettering('words');
+$('li').lettering('words');
 
 // with Lines options
 // $('h1').lettering('lines');
