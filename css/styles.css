@@ -197,6 +197,20 @@ footer {
   text-align: center;
 }
 
+
+/************
+ASIDE
+************/
+aside {
+
+}
+
+aside img {
+  width: 50px;
+  height: auto;
+}
+
+
 /************
 RWD
 ************/
