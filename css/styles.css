@@ -17,12 +17,12 @@ COLOR PALETTE AND SIZING
   --tertiary-color: #94a19a;
   --tint-color: white;
   --shade-color: black;
-  /* SECOND CHOICE
-  --primary-color: #1d0d4a;
-  --secondary-color: #70838a;
-  --tertiary-color: #0f1f32;
+  /* SECOND CHOICE */
+  --primary-colorB: #1d0d4a;
+  --secondary-colorB: #70838a;
+  --tertiary-colorB: #0f1f32;
   --tint-color: white;
-  --shade-color: black;*/
+  --shade-color: black;
 
   --viewing-size: 56em;
 }
@@ -106,7 +106,7 @@ header h1 {
   color: white;
   padding: 0;
   margin: 0;
-
+  text-shadow: 5px 5px 0 var(--primary-color), -1px -1px 2px var(--secondary-color);
 }
 
 header h5 {
