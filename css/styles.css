@@ -180,12 +180,20 @@ ACTORS
 main section#actors { 
   grid-column: 2;
 
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; */
 }
 
-main section#actors img {
+main section#actors figure {
+  display: grid;
+  grid-template-rows: 90% 10%;
+  grid-gap: 1em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+main section#actors div figure img {
   width: 100px;
   height: auto;
   grid-row: 1;
@@ -195,6 +203,7 @@ main section#actors img {
 
 section#actors figcaption {
   grid-row: 2;
+  color: white;
   text-align: center;
 }
 
