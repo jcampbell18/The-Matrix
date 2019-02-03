@@ -10,3 +10,4 @@ _Movie Trailer_ framework using _Atomic Design_ process (Winter 2019).
 * [Media Element Player](https://www.mediaelementjs.com/)
 * [Slick Carousel](http://kenwheeler.github.io/slick/)
 * [Layout Template](https://codepen.io/geoffgraham/pen/jaqWMJ)
+* [LightGallery](https://sachinchoolur.github.io/lightGallery/)
