@@ -64,14 +64,15 @@ NAV
 nav {
   width: 100%;
   background: black;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   height: 3em;
   padding: 0;
   margin: 0;
   border: 0;
   position: fixed;
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 nav a, a:link, a:visited {
@@ -319,6 +320,11 @@ RWD
   main,
   aside {
     grid-column: 1 / span 5;
+  }
+
+  nav {
+    font-size: 1.0em;
+    flex-wrap: wrap;
   }
   
 }
