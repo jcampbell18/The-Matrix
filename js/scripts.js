@@ -9,7 +9,7 @@ console.log('OK');
 // $('h1').lettering();
 
 // with Words options
-$('li').lettering('words');
+$('firstword').lettering('words');
 
 // with Lines options
 // $('h1').lettering('lines');
@@ -34,10 +34,10 @@ $('.fade').slick({
   });
 
 /* lightGallery
-* Reference:
+* Reference: https://github.com/sachinchoolur/lightGallery/blob/master/README.md
 */
-$('#light-gallery').lightGallery({
-  thumbnail:true,
-  animateThumb: false,
-  showThumbByDefault: false
-}); 
+// $('#lightgallery-thumbnails').lightGallery({
+//   thumbnail:true,
+//   animateThumb: false,
+//   showThumbByDefault: false
+// }); 
