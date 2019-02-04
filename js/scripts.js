@@ -14,6 +14,11 @@ $('firstword').lettering('words');
 // with Lines options
 // $('h1').lettering('lines');
 
+/* Burger Menu
+* Reference: https://github.com/mblode/burger
+*/
+//$('#burger-nav').burger();
+
 /* Media Element Player Plugin
 * Reference: https://github.com/mediaelement/mediaelement/blob/master/docs/usage.md
 */
