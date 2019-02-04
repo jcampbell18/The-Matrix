@@ -36,8 +36,8 @@ $('.fade').slick({
 /* lightGallery
 * Reference: https://github.com/sachinchoolur/lightGallery/blob/master/README.md
 */
-// $('#lightgallery-thumbnails').lightGallery({
-//   thumbnail:true,
-//   animateThumb: false,
-//   showThumbByDefault: false
-// }); 
+$('#lightgallery-thumbnails').lightGallery({
+  thumbnail:true,
+  animateThumb: false,
+  showThumbByDefault: false
+}); 
