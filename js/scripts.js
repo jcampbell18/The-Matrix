@@ -36,8 +36,16 @@ $('.fade').slick({
 /* lightGallery
 * Reference: https://github.com/sachinchoolur/lightGallery/blob/master/README.md
 */
-$('#lightgallery-thumbnails').lightGallery({
+$('#thumbnails').lightGallery({
+  // lightGallery core
+  mode:'lg-zoom-out',
+  cssEasing: 'ease',
+  speed: 500,
+  // thumbnail plugin
   thumbnail:true,
+  thumbnailWidth: 100,
   animateThumb: false,
-  showThumbByDefault: false
+  showThumbByDefault: false,
+  // zoom plugin
+  zoom:true
 }); 
